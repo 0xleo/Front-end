@@ -1,0 +1,447 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to bottom right, rgb(255, 255, 255), #dbdbdb);
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 400px;
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('Montserrat-Bold-DeFi.ttf') format('truetype');
+}
+
+.coinDAI {
+  margin-top: -80px;
+  max-width: 800px;
+  max-height: 800px;
+}
+
+.content {
+  line-height: 70px;
+  font-size: 27px;
+  margin-top: 270px;
+  text-align: center;
+}
+
+.content1 {
+  font-family: 'Montserrat';
+}
+
+.content2 {
+  font-family: 'MontserratBold';
+}
+
+h2 {
+  color: rgb(68, 68, 68);
+}
+
+.titulo {
+  font-family: 'MontserratBold';
+  font-size: 40px;
+  margin-top: 55px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(68, 68, 68);
+}
+
+
+.container_logo_Maker {
+  top: 5px;
+  margin-right: 1300px;
+  } 
+
+  .logo_MakerDAO {
+  position: absolute;
+  max-width: 165px;
+  max-height: 165px;
+
+  }   
+
+
+.nav-bar{
+  background-color: transparent;
+  padding: 20px;
+  display: block;
+  color: rgb(36, 36, 36);
+  cursor: pointer;
+  font-size: 20px;
+  width: 100%;
+  
+}
+.menu, .submenu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: all 0.5s;
+}
+.menu {
+  transition: background-color 1s ease;
+  background-color: transparent;
+  width: 100%;
+  margin-left: -1000px;
+  transition: all 0.4s;
+}
+.menu__link {
+  font-family: 'Montserrat';
+  display: block;    
+  padding: 20px;
+  color: rgb(36, 36, 36);
+  font-size: 15px;
+  text-decoration: none;
+  transition: background-color 1s ease;
+  border-radius: 100px;
+}
+.menu__link:hover {
+  background-color: rgb(215, 215, 215);
+  border-radius: 100px;
+  transition: background-color 1s ease;
+}
+.submenu .menu__link:hover {
+  background-color: rgb(215, 215, 215);
+  border-radius: 100px;
+  transition: background-color 1s ease
+}
+.submenu {
+  font-family: 'Montserrat';
+  transform: translateX(-50%);
+  left: 49%;
+  text-align: center;
+  height: 0;
+  overflow: hidden;
+}
+
+.submenu .menu__link{
+  background: rgb(255, 255, 255);
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: background-color 1s ease;
+  border-radius: 100px;
+}
+.mostrar {
+  margin-left: 0%;
+}
+
+
+
+
+
+
+  .container_botones {
+  margin-top: -450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  }
+
+
+
+.DAI_boton {
+  position: relative;  
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 500px;
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 380px;
+  max-height: 380px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  color: #333333; /*color del texto del boton*/
+  background-color: white; /*color del boton*/
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.DAI_boton:hover {
+  background-color: #f2f2f2; /*color al pasar el cursor*/
+  cursor: pointer;
+}
+
+.DAI_boton .title {
+  font-size: inherit;
+  font-weight: bold;
+  font-size: 19px;
+  position: absolute;
+  top: 130px;
+}
+
+  .DAI_boton .content {
+    font-size: 12px;  
+    line-height: 17px;
+    }
+  
+
+
+.DAI_boton .motive {
+font-size: inherit;
+font-weight: bold;
+font-size: 13px;
+position: absolute;
+bottom: 40px;
+right: 150px;
+left: 50px;
+
+
+}
+
+
+  .MakerVaults_boton { 
+  position: relative;    
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 500px;
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 380px;
+  max-height: 380px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  color: #333333; /*color del texto del boton*/
+  background-color: white; /*color del boton*/
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+  .MakerVaults_boton:hover {
+  background-color: #f2f2f2; /*color al pasar el cursor*/
+  cursor: pointer;
+}
+
+  .MakerVaults_boton .title {
+  font-size: inherit;
+  font-weight: bold;
+  font-size: 19px;
+  position: absolute;
+  top: 130px;
+  /* position: absolute;
+  top: 40px; */
+}
+
+  .MakerVaults_boton .content {
+    font-size: 12px;  
+    line-height: 17px;
+    }
+  
+
+
+  .MakerVaults_boton .motive {
+      font-size: inherit;
+      font-weight: bold;
+      font-size: 13px;
+      position: absolute;
+      bottom: 40px;
+      right: 150px;
+      left: 50px;
+      
+
+  }
+ 
+  .PSM_boton {  
+      position: relative;  
+      margin-top: 500px;  
+      margin-right: 20px;
+      margin-left: 20px;
+      min-width: 350px;
+      max-width: 350px;
+      min-height: 380px;
+      max-height: 380px;
+      font-family: 'Montserrat';
+      font-size: 14px;
+      color: #333333; /*color del texto del boton*/
+      background-color: white; /*color del boton*/
+      border: none;
+      border-radius: 25px;
+      transition: background-color 0.3s ease;
+      text-align: left;
+      padding-top: 15px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    
+      .PSM_boton:hover {
+      background-color: #f2f2f2; /*color al pasar el cursor*/
+      cursor: pointer;
+    }
+  
+      .PSM_boton .title {
+      font-size: inherit;
+      font-weight: bold;
+      font-size: 19px;
+      position: absolute;
+      top: 130px;
+  }
+  
+      .PSM_boton .content {
+        font-size: 12px;  
+        line-height: 17px;
+        }
+      
+  
+    
+      .PSM_boton .motive {
+          font-size: inherit;
+          font-weight: bold;
+          font-size: 13px;
+          position: absolute;
+          bottom: 40px;
+          right: 150px;
+          left: 50px;
+          
+  
+      }    
+
+@media(min-width:1024px) {
+  .nav-bar {
+      display: none;
+  }
+  .menu {
+      margin-left: 0;
+      display: flex;
+  }
+  .container-submenu{
+      position: relative;
+      
+  }
+  .submenu {
+      position: absolute;
+      top: 60px;
+      width: 200px;  
+      overflow: visible;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+  }
+  .container-submenu:hover .submenu {
+      opacity: 1;
+      visibility: visible;
+  }
+
+}
+
+@media(max-width:1024px) {
+  .container_botones {
+  flex-direction: column;
+    }
+  
+}
+
+
+
+.btn-stats { 
+  margin-top: 110px;
+  min-width: 850px;
+  max-width: 850px;
+  min-height: 230px;
+  max-height: 230px;
+  font-family: 'MontserratBold';
+  color: rgb(68, 68, 68);
+  background-color: white; /*color del boton*/
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  }
+
+  .btn-stats:hover {
+  background-color: #f2f2f2; /*color al pasar el cursor*/
+  cursor: pointer;
+  }
+  
+
+
+  .contText1 {
+    margin-top: -25px;
+      transform: translateY(100%);
+      text-align: center;
+      margin-right: 500px;
+      
+  }
+
+  .btn-stats .text1 {     
+      font-size: 50px;
+  }
+
+  .btn-stats .sub1 {
+    color: rgb(102, 102, 102);
+    font-size: 17px;
+  }
+
+
+
+
+  
+  .contText2 {
+    color: rgb(68, 68, 68);
+    text-align: center; 
+}
+
+.btn-stats .text2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 50px; 
+
+}
+
+.btn-stats .sub2 {
+  color: rgb(102, 102, 102);
+  font-size: 17px;
+}
+
+
+
+
+  .contText3 {
+    transform: translateY(-100%);
+      text-align: center;
+      margin-left: 500px;
+}
+
+.btn-stats .text3 {    
+    font-size: 50px;
+}
+
+.btn-stats .sub3 {
+  color: rgb(102, 102, 102);
+    font-size: 17px;
+}
+
+
+.sub-btn {
+  background-color: rgb(36, 66, 47) ;
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 80px;
+  max-height: 80px;
+  border-radius: 100px;
+  padding-top: 30px;
+  margin-top: -35px;
+  transform: translateX(58%); /*no mover*/
+}
+
+.sub-btn-text {
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 20px;
+}
